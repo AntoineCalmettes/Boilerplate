@@ -5,6 +5,7 @@
         "behat/behat": "*"
     },
     "require-dev": {
+        "phpunit/phpunit": "^12.2"
     },
     "config": {
         "preferred-install": {
@@ -17,7 +18,9 @@
     },
     "autoload": {
         "psr-4": {
-            "Fulll\\": "src/"
+            "Domain\\": "src/Domain/",
+            "App\\": "src/App/",
+            "Infra\\": "src/Infra/"
         }
     }
 }
