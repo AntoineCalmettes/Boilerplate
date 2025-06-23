@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace App\Command\RegisterVehicle;
 
 use Domain\Vehicle\Vehicle;
-use Domain\Repository\FleetRepositoryInterface;
+use Infra\Repository\FleetRepositoryInterface;
 
 final readonly class RegisterVehicleHandler
 {

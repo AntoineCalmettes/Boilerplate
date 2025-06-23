@@ -3,9 +3,10 @@ declare(strict_types=1);
 
 namespace Infra\Persistence;
 
-use Domain\Repository\FleetRepositoryInterface;
+
 use Domain\Fleet\Fleet;
 use Domain\Fleet\FleetId;
+use Infra\Repository\FleetRepositoryInterface;
 
 final class JsonFleetRepository implements FleetRepositoryInterface
 {

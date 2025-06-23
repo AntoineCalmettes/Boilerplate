@@ -6,7 +6,8 @@ namespace App\Command\Fleet;
 
 use Domain\Fleet\Fleet;
 use Domain\Fleet\FleetId;
-use Domain\Repository\FleetRepositoryInterface;
+use Infra\Repository\FleetRepositoryInterface;
+
 
 final readonly class CreateFleetHandler
 {

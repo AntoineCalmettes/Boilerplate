@@ -4,7 +4,8 @@ declare(strict_types=1);
 
 namespace App\Command\LocalizeVehicle;
 
-use Domain\Repository\FleetRepositoryInterface;
+use Infra\Repository\FleetRepositoryInterface;
+
 
 final readonly class LocalizeVehicleHandler
 {
